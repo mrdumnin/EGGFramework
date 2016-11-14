@@ -1,0 +1,22 @@
+{
+  "name": "EGGFramework",
+  "version": "0.1.0",
+  "summary": "A short description of EGGFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EGGFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Suchon Dumnin": "mrdumnin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EGGFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EGGFramework/Classes/**/*"
+}

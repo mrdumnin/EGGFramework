@@ -1,0 +1,6 @@
+framework module Pods_EGGFramework_Tests {
+  umbrella header "Pods-EGGFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

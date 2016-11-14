@@ -1,0 +1,16 @@
+PODS:
+  - EGGFramework (0.1.0)
+
+DEPENDENCIES:
+  - EGGFramework (from `../`)
+
+EXTERNAL SOURCES:
+  EGGFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EGGFramework: 64e2e27ff70ed7b47957c1476bcdf29f27e7ee53
+
+PODFILE CHECKSUM: 49a506692b1cc51c7bac94293f20aa16a53b1370
+
+COCOAPODS: 1.1.1
