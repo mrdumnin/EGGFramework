@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AF3AFB1DD9C9EE00B4B71A /* EGGFramework_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF3AFA1DD9C9EE00B4B71A /* EGGFramework_ExampleTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		A015AD1C89FE576BDB6C2B58 /* Pods_EGGFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0ACF0A2A9506874C293EAC /* Pods_EGGFramework_Example.framework */; };
+		B60AF8AE8E8939EBC39EA25A /* Pods_EGGFramework_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026798DAFCEF86E46A12299B /* Pods_EGGFramework_ExampleTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		21AF3AFD1DD9C9EE00B4B71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = EGGFramework_Example;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		026798DAFCEF86E46A12299B /* Pods_EGGFramework_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGGFramework_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0ACF0A2A9506874C293EAC /* Pods_EGGFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGGFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA24FA740CFD8F091533543 /* EGGFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EGGFramework.podspec; path = ../EGGFramework.podspec; sourceTree = "<group>"; };
+		21AF3AF81DD9C9EE00B4B71A /* EGGFramework_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGGFramework_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF3AFA1DD9C9EE00B4B71A /* EGGFramework_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGGFramework_ExampleTests.swift; sourceTree = "<group>"; };
+		21AF3AFC1DD9C9EE00B4B71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2503E0577CBF0138FB1086D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		34834D089C75D8FE5E155E10 /* Pods-EGGFramework_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGGFramework_ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGGFramework_ExampleTests/Pods-EGGFramework_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49DD3CB197A7657B5292D20F /* Pods-EGGFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGGFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGGFramework_Example/Pods-EGGFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EGGFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGGFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,16 +44,21 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		64CE938B1C02671D23BA6A37 /* Pods-EGGFramework_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGGFramework_ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGGFramework_ExampleTests/Pods-EGGFramework_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		866C2A6AE421E1F5354EEABB /* Pods-EGGFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGGFramework_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGGFramework_Example/Pods-EGGFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		95DCF52D4E09EB13A42F9348 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE7051F7A227607BB3B00889 /* Pods_EGGFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGGFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0607246273DD854C0C8D00A /* Pods-EGGFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGGFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGGFramework_Tests/Pods-EGGFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F59688CE9051E0360F2AA0EF /* Pods-EGGFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGGFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGGFramework_Tests/Pods-EGGFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		21AF3AF51DD9C9EE00B4B71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60AF8AE8E8939EBC39EA25A /* Pods_EGGFramework_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,8 +75,18 @@
 			children = (
 				0D0ACF0A2A9506874C293EAC /* Pods_EGGFramework_Example.framework */,
 				AE7051F7A227607BB3B00889 /* Pods_EGGFramework_Tests.framework */,
+				026798DAFCEF86E46A12299B /* Pods_EGGFramework_ExampleTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21AF3AF91DD9C9EE00B4B71A /* EGGFramework_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				21AF3AFA1DD9C9EE00B4B71A /* EGGFramework_ExampleTests.swift */,
+				21AF3AFC1DD9C9EE00B4B71A /* Info.plist */,
+			);
+			path = EGGFramework_ExampleTests;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -62,7 +94,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for EGGFramework */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				21AF3AF91DD9C9EE00B4B71A /* EGGFramework_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				F98FCA76130FAD8A1CD86762 /* Pods */,
 				068E206F8A298E772EE468CA /* Frameworks */,
@@ -73,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* EGGFramework_Example.app */,
+				21AF3AF81DD9C9EE00B4B71A /* EGGFramework_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,23 +132,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +147,8 @@
 			children = (
 				866C2A6AE421E1F5354EEABB /* Pods-EGGFramework_Example.debug.xcconfig */,
 				49DD3CB197A7657B5292D20F /* Pods-EGGFramework_Example.release.xcconfig */,
-				F59688CE9051E0360F2AA0EF /* Pods-EGGFramework_Tests.debug.xcconfig */,
-				F0607246273DD854C0C8D00A /* Pods-EGGFramework_Tests.release.xcconfig */,
+				34834D089C75D8FE5E155E10 /* Pods-EGGFramework_ExampleTests.debug.xcconfig */,
+				64CE938B1C02671D23BA6A37 /* Pods-EGGFramework_ExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -140,6 +156,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		21AF3AF71DD9C9EE00B4B71A /* EGGFramework_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AF3B011DD9C9EE00B4B71A /* Build configuration list for PBXNativeTarget "EGGFramework_ExampleTests" */;
+			buildPhases = (
+				FABC8FFF596BD5D361EC5040 /* [CP] Check Pods Manifest.lock */,
+				21AF3AF41DD9C9EE00B4B71A /* Sources */,
+				21AF3AF51DD9C9EE00B4B71A /* Frameworks */,
+				21AF3AF61DD9C9EE00B4B71A /* Resources */,
+				D9FF9C62EA7854A91C010464 /* [CP] Embed Pods Frameworks */,
+				F256F0D8193F801A42DFA47D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AF3AFE1DD9C9EE00B4B71A /* PBXTargetDependency */,
+			);
+			name = EGGFramework_ExampleTests;
+			productName = EGGFramework_ExampleTests;
+			productReference = 21AF3AF81DD9C9EE00B4B71A /* EGGFramework_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* EGGFramework_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "EGGFramework_Example" */;
@@ -166,10 +203,16 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					21AF3AF71DD9C9EE00B4B71A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 898C247W7W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -189,11 +232,19 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* EGGFramework_Example */,
+				21AF3AF71DD9C9EE00B4B71A /* EGGFramework_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		21AF3AF61DD9C9EE00B4B71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,9 +303,62 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGGFramework_Example/Pods-EGGFramework_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D9FF9C62EA7854A91C010464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGGFramework_ExampleTests/Pods-EGGFramework_ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F256F0D8193F801A42DFA47D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGGFramework_ExampleTests/Pods-EGGFramework_ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABC8FFF596BD5D361EC5040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		21AF3AF41DD9C9EE00B4B71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF3AFB1DD9C9EE00B4B71A /* EGGFramework_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +369,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AF3AFE1DD9C9EE00B4B71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* EGGFramework_Example */;
+			targetProxy = 21AF3AFD1DD9C9EE00B4B71A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -286,6 +398,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		21AF3AFF1DD9C9EE00B4B71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34834D089C75D8FE5E155E10 /* Pods-EGGFramework_ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 898C247W7W;
+				INFOPLIST_FILE = EGGFramework_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eggdigital.EGGFramework-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGGFramework_Example.app/EGGFramework_Example";
+			};
+			name = Debug;
+		};
+		21AF3B001DD9C9EE00B4B71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CE938B1C02671D23BA6A37 /* Pods-EGGFramework_ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 898C247W7W;
+				INFOPLIST_FILE = EGGFramework_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eggdigital.EGGFramework-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGGFramework_Example.app/EGGFramework_Example";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +560,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		21AF3B011DD9C9EE00B4B71A /* Build configuration list for PBXNativeTarget "EGGFramework_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF3AFF1DD9C9EE00B4B71A /* Debug */,
+				21AF3B001DD9C9EE00B4B71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "EGGFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

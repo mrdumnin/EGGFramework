@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import EGGFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //let result = Validator.sharedInstance.isThaiID("1419900049165")
+        //print(result)
     }
 
     override func didReceiveMemoryWarning() {

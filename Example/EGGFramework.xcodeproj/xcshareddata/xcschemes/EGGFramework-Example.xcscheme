@@ -52,6 +52,16 @@
                ReferencedContainer = "container:EGGFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "21AF3AF71DD9C9EE00B4B71A"
+               BuildableName = "EGGFramework_ExampleTests.xctest"
+               BlueprintName = "EGGFramework_ExampleTests"
+               ReferencedContainer = "container:EGGFramework.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -85,6 +95,13 @@
             ReferencedContainer = "container:EGGFramework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

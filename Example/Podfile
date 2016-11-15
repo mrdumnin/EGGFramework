@@ -3,11 +3,9 @@ use_frameworks!
 target 'EGGFramework_Example' do
   pod 'EGGFramework', :path => '../'
 
-  target 'EGGFramework_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    target 'EGGFramework_ExampleTests' do
+        inherit! :search_paths
+    end
 end
 
 post_install do |installer|
