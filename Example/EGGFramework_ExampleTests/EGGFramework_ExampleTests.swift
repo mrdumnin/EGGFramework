@@ -45,6 +45,12 @@ class EGGFramework_ExampleTests: XCTestCase {
         result = Validator.sharedInstance.isEmail("email@domain-one.com")
         XCTAssert(result)
         
+        result = Validator.sharedInstance.isEmail("email@domain.name")
+        XCTAssert(result)
+        
+        result = Validator.sharedInstance.isEmail("email@domain.co.jp")
+        XCTAssert(result)
+        
         //########## Invalid Input ############
         result = Validator.sharedInstance.isEmail("plainaddress")
         XCTAssertFalse(result, "Missing @ sign and domain")
@@ -60,6 +66,16 @@ class EGGFramework_ExampleTests: XCTestCase {
         
         result = Validator.sharedInstance.isEmail("email.domain.com")
         XCTAssertFalse(result, "Missing @")
+        
+        result = Validator.sharedInstance.isEmail("email@domain@domain.com")
+        XCTAssertFalse(result, "Two @ sign")
+        
+        result = Validator.sharedInstance.isEmail("email@domain.com (Joe Smith)")
+        XCTAssertFalse(result, "Text followed email is not allowed")
+        
+        result = Validator.sharedInstance.isEmail("email..email@domain.com")
+        XCTAssertFalse(result, "Multiple dots")
+        
     }
     
     func testMobileNumber() {
