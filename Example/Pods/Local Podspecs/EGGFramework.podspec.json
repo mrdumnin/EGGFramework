@@ -1,9 +1,9 @@
 {
   "name": "EGGFramework",
   "version": "0.1.0",
-  "summary": "A short description of EGGFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EGGFramework",
+  "summary": "EGGFramework is library to help you to work easier.",
+  "description": "EGGFramework is library to help you to work easier and faster of team standard.",
+  "homepage": "https://github.com/mrdumnin/EGGFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Suchon Dumnin": "mrdumnin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EGGFramework.git",
+    "git": "https://github.com/mrdumnin/EGGFramework.git",
     "tag": "0.1.0"
   },
   "platforms": {
