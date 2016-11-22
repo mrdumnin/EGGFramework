@@ -20,6 +20,28 @@ it, simply add the following line to your Podfile:
 pod "EGGFramework"
 ```
 
+## Usage
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```ruby
+import EGGFramework
+```
+
+**Validation Email**
+```swift
+let result = Validator.sharedInstance.isEmail("email@domain.com")
+```
+
+**Validation Mobile**
+```swift
+let result = Validator.sharedInstance.isMobile("0850099664")
+```
+
+**Validation Thai ID**
+```swift
+let result = Validator.sharedInstance.isThaiID("1040853260638")
+```
+
 ## Author
 
 Suchon Dumnin, mrdumnin@gmail.com
