@@ -8,25 +8,25 @@
 
 import UIKit
 
-public class Validator: NSObject {
-    public static let sharedInstance = Validator()
+open class Validator: NSObject {
+    open static let sharedInstance = Validator()
     
-    private override init() {
+    fileprivate override init() {
         super.init()
     }
     
     // MARK: - Email
-    public func isEmail(email: String) -> Bool {
+    open func isEmail(_ email: String) -> Bool {
         return Email.isEmail(email)
     }
     
     // MARK: - Mobile
-    public func isMobile(mobileNumber: String) -> Bool {
+    open func isMobile(_ mobileNumber: String) -> Bool {
         return Mobile.isMobile(mobileNumber)
     }
 
     // MARK: - ThaiID
-    public func isThaiID(thaiID: String) -> Bool {
+    open func isThaiID(_ thaiID: String) -> Bool {
         return ThaiID.isThaiID(thaiID)
     }
 }
